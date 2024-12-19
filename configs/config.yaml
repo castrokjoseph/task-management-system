@@ -1,0 +1,12 @@
+database:
+  host: localhost
+  port: 5432
+  user: taskmanager
+  password: yourpassword
+  dbname: taskmanagerdb
+
+server:
+  port: 8080
+
+jwt:
+  secret: your-very-secret-and-long-jwt-secret-key-here
